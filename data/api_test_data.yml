@@ -1,0 +1,4 @@
+user_login:
+  # domain, project, username, password, except_result, except_code
+  - ["Default", "project", "test", "123456", False, 401]
+  - ["Default", "project", "sacred001", "123456", True, 200]
